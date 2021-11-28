@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.personalimage {
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+
+
+}
+
+/*section div h3 {
+    display: flex;
+    flex-flow: row;
+    text-align: right;
+    justify-content: right;
+    align-content: flex-end;
+}*/
+
+.address {
+    text-justify: right;
+    text-align: right;
+}
+
+header div h1 {
+    align-content: left;
+}
