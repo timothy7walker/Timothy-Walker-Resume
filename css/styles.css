@@ -1,15 +1,45 @@
-section {
+.sectionhead {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     
+}
+
+address {
+    justify-content: end;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.educationwork {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+hr {
+    border-style: groove;
+    border-color: black;
+    border-width: 2px;
 }
 
 .personalimage {
     max-height: 100px;
     max-width: 100px;
     border-radius: 50%;
+}
 
-
+.contentalign {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
 }
 
 /*section div h3 {
